@@ -1,0 +1,247 @@
+*{
+    font-family: "Oswald","serif";
+    box-sizing: border-box;
+    margin: 0;
+    color: rgb(255, 199, 199);
+}
+
+button{
+    cursor: pointer;
+}
+body{
+    background-color: #111;
+}
+/* navbar section */
+.navbar{
+    background-color: #111;
+    width: 100%;
+}
+.logo h1{ 
+    cursor: pointer;
+    color: rgb(197, 40, 40);
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    margin-right: 2rem;
+}
+li{
+    display: inline-block;
+    margin: 0 .7rem;
+}
+li a{
+    text-decoration: none;
+
+}
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem 0 8rem 3rem;
+    background-color: rgb(197, 40, 40);
+   margin: 0;
+   padding: 1rem 2rem;
+   height: 100vh;
+}
+.hero-about{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    justify-content: center;
+}
+.hero-about p{
+font-size: 1.8rem;
+}
+.hero-about h1{
+    font-size: 4rem;
+    color: #111;
+}
+.hero-about button{
+    width: 50%;
+    border: 1px rgb(167, 55, 55) groove;
+    border-radius: 25px;
+    padding:1.1rem ;
+    font-size: medium;
+    background-color: #111;
+}
+button:hover{
+    background-color: rgb(250, 218, 218);
+    color: blueviolet;
+}
+.hero-photo{
+    position: relative;
+}
+.hero-photo img{
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.icons img{
+    height: 2rem;
+    margin:.7rem .5rem ;
+}
+/* service section */
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem 8rem ;
+    height: 75Vh;
+    box-sizing: ;
+}
+.header-service h1{
+    color :rgb(197, 40, 40)
+}
+.service-card{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+    border-radius: 20px;
+    padding-bottom: 2rem;
+    cursor: pointer;
+    transform: scale(0.9);
+    transition-duration: .5s;
+    box-shadow: 2px 5px 5px rgb(197, 40, 40),
+                2px 5px 5px rgb(197, 40, 40);
+}
+.service-card p{
+    text-align: center;
+}
+.service-card:hover{
+    transform: scale(1);
+    transition: .5s;
+}
+.header-service{
+    color: rgb(197, 40, 40); 
+    text-align: center;
+}
+.img-service{
+    width: 50%;
+   margin: auto;
+   cursor: pointer;
+}
+.service-card h3{
+    color: rgb(197, 40, 40);
+    text-align: center;
+}
+
+/* project section  */ 
+.projects{
+    background-color:rgb(197, 40, 40);
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.project-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    column-gap: 5rem;
+}
+.project-card{
+    border: 1px black solid;
+    background-color: #111;
+    border-radius: 10px;
+    overflow: hidden;
+    transform: scale(1);
+    transition-duration: .5s;
+    box-shadow: 2px 5px 5px black;
+}
+.project-card:hover{
+    transform: scale(1.1);
+    transition-duration: .5s;
+}
+.project-about{
+    padding: 1rem;
+}
+.project-header h1{
+color:#111;
+}
+.project-about p{
+    margin-bottom: .5rem;
+    color: gray;
+}
+.project-btns{
+    display: flex;
+    justify-content: space-between;
+}
+.project-btns button{
+    background-color: transparent;
+    border-style: none;
+}
+.project-btns button:nth-child(1){
+    color: violet;
+}
+.project-btns button:nth-child(2){
+    color: rgb(197, 40, 40);
+}
+
+/* contact section */
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+}
+.contact-card{
+    text-align: center;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background-color: rgb(197, 40, 40);
+    border-radius: 10px;
+    transform: scale(1);
+    transition-duration: .7s;
+    box-shadow: 2px 5px 2px rgb(197, 40, 40);
+}
+.contact-card:hover{
+    transform: scale(1.1);
+    transition-duration: .7s;
+}
+.contact-header h1{
+    text-align: center;
+    margin: 1.2rem 0 2rem;
+    color: rgb(197, 40, 40);
+}
+.contact-section{
+    display: flex;
+    column-gap: 2rem;
+}
+.contact-card img{
+    width: 5rem;
+    margin-top: 1rem;
+
+}
+.contact-card p{
+    padding-bottom: 1rem;
+}
+.contact-card h3{
+    margin-bottom: 1rem;
+    color: violet;
+}
+/* footer section */
+.footer{
+    padding: 1rem 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(197, 40, 40);
+}
+.social-account img{
+    height: 25px; 
+    color: #222;
+}
+.copyright span{
+    color :violet
+}
+.social-account-child{
+    margin-right: 5px;
+}
